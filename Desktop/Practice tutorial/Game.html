@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="Game.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+*{
+    font-family: 'raleway';
+    /* text-align: center; */
+}
+
+body{
+    background-color: cyan;
+}
+h2,h1{
+    text-align: center;
+}
+
+.parent{
+    width:40%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35%;
+}
+.parent div{
+    border: 8px solid black;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    margin: 25px 30px 5px 5px;
+    text-align: center;
+}
+
+
+
+.one{
+    background-color:#f99b45;
+    
+}
+.two{
+    background-color:#d95980;
+    
+}
+.three{
+    background-color: #819ff9;
+    
+}
+.four{
+    background-color: #63aac0;
+    
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+
+}
+
+ol{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+</style>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press Any Key to Start the Game</h2>
+    
+
+    <div class="parent">
+        <div class="one btn" type="button" id="one">1</div>
+        <div class="two btn" type="button" id="two">2</div>
+        <div class="three btn" type="button" id="three">3</div>
+        <div class="four btn" type="button" id="four">4</div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+    <h3>Rules:-</h3>
+    <ol>
+        <li>First Press Any key to Start the game.</li>
+        <li>Then a random color will flash out of these four.</li>
+        <li>Then Click on that color and again a random color will flash.</li>
+        <li>You have to remeber the sequence of color and click in that sequence from starting.</li>
+        <li>If you clicked any wrong color, You will lose and have to start Again.</li>
+    </ol>
+</body>
+</html>

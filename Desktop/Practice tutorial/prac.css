@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+.q1{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+.e3{
+    color: blue;
+}
+.e4{
+    background-color: yellowgreen;
+}
+.win{
+    background-color: brown;
+    height:2rem;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.red{
+    background-color: #d04646;
+}
+.orng{
+    background-color:#5fcbcf;
+}
+.q1{
+    background-color:orange
+}
+.blue{
+    background-color:#613461;
+}
+.try{
+    background-color:purple;
+    height: 150px;
+    border: 2px solid red;
+}
+.ul{
+    color: #d04646;
+}
+.lu{
+    background-color: aqua;
+}
